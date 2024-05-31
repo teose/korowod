@@ -1,0 +1,43 @@
+.App {
+  font-family: 'Nizhegorodsky';
+}
+
+header, section {
+  margin-bottom: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header nav ul {
+    flex-direction: column;
+  }
+
+  .vision-details {
+    flex-direction: column;
+  }
+
+  .achievement-images, .partner-logos {
+    flex-direction: column;
+  }
+
+  .partner {
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  .header nav ul {
+    flex-direction: row;
+  }
+
+  .vision-details {
+    flex-direction: row;
+  }
+
+  .achievement-images, .partner-logos {
+    flex-direction: row;
+  }
+
+  .partner {
+    width: 18%;
+  }
+}
