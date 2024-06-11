@@ -1,9 +1,13 @@
+body {
+  margin: 0;
+}
+
 .App {
   font-family: 'Nizhegorodsky';
 }
 
 header, section {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 /* Responsive styles */

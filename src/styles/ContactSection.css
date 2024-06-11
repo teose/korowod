@@ -41,3 +41,14 @@
       margin-bottom: 2rem;
     }
   }
+  .pattern-background {
+    background-image: url('../../public/images/pattern-divider.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px; /* Adjust height as needed */
+    position: relative;
+    top: -35px;
+    left: -16px;
+    width: 100vw;
+    z-index: 1;
+  }

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/AchievmentsSection.css';
 
 const AchievementsSection = () => (
-    <section className="achievements">
+    <section className="achievements background-tint">
         <div className="achievments-text">
             <h2>Dokonania</h2>
             <p>Nasze dokonania to rezultat naszego oddania kulturze i naturze. Zobacz, co udało się nam osiągnąć.</p>

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/VisionSection.css';
 
 const VisionSection = () => (
-    <section className="vision">
+    <section className="vision background-tint">
         <h2>Odkryj Naszą Wizję</h2>
         <p>Jesteśmy wspólnotą, która celebruje różnorodność...</p>
         <div className="vision-details">
